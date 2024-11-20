@@ -1,0 +1,381 @@
+.{
+margin: 0;
+font-family: Arial; 
+border: border-box;
+}
+
+.navbar {
+height: 60px;
+background-color: #0f1111;
+color: white;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.nav-logo {
+height: 50px;
+width: 100px;
+/* padding: 5px 5px 5px 5px ; */
+}
+
+.logo {
+background-image: url(C:\Users\super\OneDrive\Pictures\Screenshots\Screenshot (7).png);
+background-size: cover;
+height: 50px;
+width: 100%; 
+}
+
+.border {
+border: 1.5px solid transparent;
+}
+
+.border:hover {
+border: 1.5px solid white;
+}
+
+.add-first {
+color: #CCCCCC;
+font-size: 0.85rem;
+margin-left: 15px;
+}
+
+.add-sec {
+font-size: 1rem;
+margin-left: 4px;
+}
+
+.add-icon {
+display: flex;
+align-items: center;
+}
+
+.nav-search {
+display: flex;
+justify-content: space-evenly;
+background-color: pink;
+width: 650px;
+height: 40px;
+border-radius:4px ;
+}
+
+.search-select {
+background-color: #f3f3f3;
+border-top-left-radius: 4px;
+border-bottom-left-radius: 4px;
+width: 50px;
+text-align: center;
+border: none;
+}
+
+.search-input {
+width: 100%;
+border: none;
+font-size: 1rem;
+}
+
+.search-icon {
+width: 45px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1.2rem;
+background-color: rgb(239, 169, 70);
+border-top-right-radius: 4px;
+border-bottom-right-radius: 4px;
+color: #0f1111;
+}
+
+.nav-search:hover {
+border: 2px solid rgb(239, 169, 70) ;
+}
+
+span {
+font-size: 0.7rem;
+}
+
+.nav-sec {
+font-size: 0.85rem;
+font-weight: 700;
+}
+
+.pad {
+padding: 5px 5px 5px 5px;
+}
+
+.cart-icon i {
+font-size: 30px;
+}
+
+.cart-icon {
+font-size: 0.85rem;
+font-weight: 700;
+}
+
+.panel {
+height: 40px;
+background-color: #222f3d;
+display: flex;
+color: white;
+align-items: center; 
+justify-content: space-evenly;
+}
+
+.panel-all {
+display: flex;
+}
+
+.panel-all p {
+padding-left: 5px;
+}
+
+.panel-ops p {
+display: inline;
+margin-left: 10px;
+padding: 8px 9px;
+}
+
+.panel-ops p:hover {
+border: 1.5px solid transparent;
+}
+.panel-ops p:hover {
+border: 1.5px solid white;
+}
+
+.panel-ops {
+width: 90%;
+font-size: 0.85rem;
+}
+
+
+.hero-section {
+background-image: url(https://logos-world.net/wp-content/uploads/2020/11/Zomato-Logo.png);
+background-size: cover;
+height: 800px;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+}
+
+.hero-msg {
+background-color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+/* margin: 0px 20px 0px 20px; */
+height: 40px;
+font-size: 0.85rem;
+width: 98%;
+margin-bottom: 25px;
+}
+
+.hero-msg a {
+color: #007185;
+}
+
+.shop-sec {
+display: flex;
+color: black;
+flex-wrap: wrap;
+justify-content: space-evenly;
+background-color: #a3ccab;
+}
+
+.box {
+/* border: 2px solid black; */
+height: 400px;
+width: 23%;
+background-color: white;
+padding: 20px 0px 15px;
+margin-top: 15px;
+}
+
+
+.ele-img{
+background-image: url(elec.jpg);
+background-size: cover;
+height: 280px;
+margin-top: 1rem;
+margin-bottom: 1rem;
+}
+
+.box-content {
+margin: 0rem 1rem 0rem 1rem;
+}
+
+.ele-img1{
+background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/5/57/KFC_logo-image.svg/640px-KFC_logo-image.svg.png);
+background-size: cover;
+height: 300px;
+width: 100%;
+margin: 0px 0px 10px 0px;
+display: flex;
+}
+.ele-img2 {
+background-image: url(https://images.deliveryhero.io/image/talabat/restaurants/Logo_2637943728300282191.jpg?width=300);
+background-size: cover;
+height: 300px;
+width:100%;
+margin: 0px 0px 10px 0px;
+display: flex;
+}
+.ele-img3 {
+background-image: url(https://food-images.files.bbci.co.uk/food/recipes/cheats_chicken_19338_16x9.jpg);
+background-size: cover;
+height: 300px;
+width: 100%;
+margin: 0px 0px 10px 0px;
+display: flex;
+}
+.ele-img4 {
+background-image: url(https://www.kitchensanctuary.com/wp-content/uploads/2024/03/Stir-Fried-Noodles-with-Beansprouts-square-FS.jpg);
+background-size: cover;
+height: 300px;
+width: 100%;
+margin: 0px 0px 10px 0px;
+display: flex;
+}
+.ele-img5 {
+background-image: url(https://www.hookedonheat.com/wp-content/uploads/2006/03/Gobi-Manchurian-HOHV.jpg);
+background-size: cover;
+height: 300px;
+width: 100%;
+margin: 0px 0px 10px 0px;
+display: flex;
+}
+.ele-img6 {
+background-image: url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/RX_THUMBNAIL/IMAGES/VENDOR/2024/9/13/3fe9a8be-1515-42b3-85a1-2a93f8ce157b_755468.JPG);
+background-size: cover;
+height: 300px;
+width: 100%;
+margin: 0px 0px 10px 0px;
+display: flex;
+}
+.ele-img7 {
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNRC5dFmsqjN0V1IlIKUaEW0O0Kq9rScf-_g&s);
+background-size: cover;
+height: 300px;
+width: 100%;
+margin: 0px 0px 10px 0px;
+display: flex;
+}
+.ele-img8 {
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIg0Sc9eIbvUXDhdc830CnXJ8hBkqC7GqoQw&s);
+background-size: cover;
+height: 300px;
+width: 100%;
+margin: 0px 0px 10px 0px;
+display: flex;
+}
+.ele-img9 {
+background-image: url(https://cdn.wowdeals.me/uploads/catalogues/issues/52/70456/cover/551x752/1707581891.jpg);
+background-size: cover;
+height: 300px;
+width: 100%;
+margin: 0px 0px 10px 0px;
+display: flex;
+}
+.ele-img10 {
+background-image: url(https://akns-images.eonline.com/eol_images/Entire_Site/201449/rs_1024x759-140509094613-1024.burger-king-whopper.jpg?fit=around%7C1024:759&output-quality=90&crop=1024:759;center,top);
+background-size: cover;
+height: 300px;
+width: 100%;
+margin: 0px 0px 10px 0px;
+display: flex;
+}
+.ele-img11 {
+background-image: url(http://akashkaushal.files.wordpress.com/2012/03/logo-starbucks.jpeg);
+background-size: cover;
+height: 300px;
+width: 100%;
+margin: 0px 0px 10px 0px;
+display: flex;
+}
+.ele-img12 {
+background-image: url(https://pipingpotcurry.com/wp-content/uploads/2021/04/Instant-Pot-Chicken-Biryani-recipe-Piping-Pot-Curry.jpg);
+background-size: cover;
+height: 300px;
+width: 100%;
+margin: 0px 0px 10px 0px;
+display: flex;
+}
+.ele-img13 {
+background-image: url(https://img.freepik.com/premium-photo/veg-manchurian-popular-indochinese-food-made-cauliflower-florets-other-vegetable-served-white-plate-rustic-wooden-table-selective-focus_726363-656.jpg?w=1380);
+background-size: cover;
+height: 300px;
+width: 100%;
+margin: 0px 0px 10px 0px;
+display: flex;
+}
+.ele-img14 {
+background-image: url(https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Homemade-Pizza_EXPS_HCA20_376_E07_09_2b.jpg);
+background-size: cover;
+height: 300px;
+width: 100%;
+margin: 0px 0px 10px 0px;
+display: flex;
+}
+.ele-img15 {
+background-image: url(https://assets.unileversolutions.com/recipes-v2/243142.jpg);
+background-size: cover;
+height: 300px;
+width: 100%;
+margin: 0px 0px 10px 0px;
+display: flex;
+}
+
+
+/* .pad1 {
+margin: 0px 0px 10px 0px;
+} */
+
+.foot-panel1 {
+color: white;
+background-color: #374758;
+height: 50px;
+align-items: center;
+display: flex;
+justify-content: space-evenly;
+margin-top: 20px;
+font-size: 0.85rem;
+}
+.foot-panel2 {
+background-color: #222f3d;
+color: white;
+height: 300px;
+display: flex;
+justify-content: space-evenly;
+}
+
+ul {
+margin-top: 20px;
+}
+
+ul p {
+margin-bottom: 14px;
+font-size: 1rem;
+}
+
+ul a {
+display: block;
+color: #DDDDDD;
+margin-bottom: 10px;
+
+}
+
+.foot-panel3 {
+background-color: #222f3d;
+border-top: 0.001rem solid #DDDDDD;
+display: flex;
+justify-content: space-evenly;
+height: 70px;
+
+}
+
+.logo  {
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+color: white;
+/* border: 1px solid white; */
+}
